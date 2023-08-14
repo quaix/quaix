@@ -9,6 +9,8 @@ quaix/quaix is a ✨ special ✨ repository because its `README.md` (this file) 
 You can click the Preview link to take a look at your changes.
 --->
 
+## description
+
 ---
 
 Quaix Framework is an AI engineering framework designed to streamline the development of AI applications.
@@ -17,4 +19,34 @@ With Quaix Framework, developers can leverage cutting-edge AI algorithms and eas
 It focuses on optimizing the engineering aspects of AI development, enabling developers to create robust and scalable AI solutions.
 
 ---
+
+##  clone and build
+
+```shell
+# https://git-scm.com/book/en/v2/Git-Tools-Submodules
+# https://www.jianshu.com/p/2d74a6f41d07
+
+# add submodule
+cd src/packages
+git clone git@github.com:quaix/quaix-physics.git
+git submodule add git@github.com:quaix/quaix-physics.git
+git status
+```
+
+git clone
+
+```shell
+
+#
+git clone --recurse-submodules git@github.com:quaix/quaix.git
+```
+
+pull for submodule
+```shell
+
+cd src/packages/quaix-physics
+#main
+git pull origin main
+
+```
 

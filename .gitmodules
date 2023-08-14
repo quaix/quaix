@@ -1,0 +1,3 @@
+[submodule "src/packages/quaix-physics"]
+	path = src/packages/quaix-physics
+	url = git@github.com:quaix/quaix-physics.git
