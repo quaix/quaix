@@ -12,3 +12,5 @@ https://github.com/openai/tiktoken
 https://github.com/postgresml/postgresml
 
 https://github.com/qdrant/qdrant
+
+https://huggingface.co/inference-api
