@@ -28,6 +28,9 @@ It focuses on optimizing the engineering aspects of AI development, enabling dev
 
 # add submodule
 cd packages
+```
+```shell
+# 
 git clone git@github.com:quaix/quaix-physics.git
 git submodule add git@github.com:quaix/quaix-physics.git
 git status
@@ -45,6 +48,8 @@ pull for submodule
 ```shell
 
 cd packages/quaix-physics
+```
+```shell
 #main
 git pull origin main
 
