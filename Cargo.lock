@@ -7,6 +7,10 @@ name = "example-quaix-ai"
 version = "0.1.0"
 
 [[package]]
+name = "example-quaix-server"
+version = "0.1.0"
+
+[[package]]
 name = "quaix-3d"
 version = "0.1.0"
 
