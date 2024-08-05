@@ -27,7 +27,7 @@ It focuses on optimizing the engineering aspects of AI development, enabling dev
 # https://www.jianshu.com/p/2d74a6f41d07
 
 # add submodule
-cd src/packages
+cd packages
 git clone git@github.com:quaix/quaix-physics.git
 git submodule add git@github.com:quaix/quaix-physics.git
 git status
@@ -44,7 +44,7 @@ git clone --recurse-submodules git@github.com:quaix/quaix.git
 pull for submodule
 ```shell
 
-cd src/packages/quaix-physics
+cd packages/quaix-physics
 #main
 git pull origin main
 
