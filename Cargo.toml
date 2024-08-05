@@ -1,20 +1,12 @@
 [workspace]
 resolver = "2"
 members = [
-    "src/packages/quaix-core",
-    "src/packages/quaix-ai",
-    "src/packages/quaix-server",
-    "src/packages/quaix-3d",
-    "src/packages/quaix-ui",
-    "src/packages/quaix-cross",
-    "src/packages/*",
+    "packages/*",
     "tests/*",
     "examples/*"
 ]
 
-exclude = [
-    "target" # exclude bench testing
-]
+exclude = []
 
 [workspace.package]
 # https://doc.rust-lang.org/cargo/reference/workspaces.html
