@@ -19,7 +19,7 @@ With Quaix Framework, developers can leverage cutting-edge AI algorithms and eas
 It focuses on optimizing the engineering aspects of AI development, enabling developers to create robust and scalable AI solutions.
 """
 homepage = "https://xxx.rs"
-repository = "https://github.com/xxx"
+repository = "https://github.com/quaix/quaix"
 documentation = "https://docs.rs/xxx/"
 readme = "./README.md"
 keywords = ["ai", "async", "web", "framework", "server"]
